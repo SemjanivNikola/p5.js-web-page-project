@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>p5.js Project</title>
+<meta name="description" content="p5.js Web Page">
+<meta name="author" content="Nikol Semjaniv">
+
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+
+<!-- Stylesheet
+    ================================================== -->
+<link rel="stylesheet" type="text/css"  href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/nivo-lightbox/nivo-lightbox.css">
+<link rel="stylesheet" type="text/css" href="css/nivo-lightbox/default.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+<link rel="stylesheet" type="text/css"  href="css/clock.css">
+<link rel="stylesheet" type="text/css"  href="css/circles.css">
+
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<!-- Navigation
+    ==========================================-->
+<nav id="menu" class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <a class="navbar-brand page-scroll" href="#page-top">p5.js Project</a> </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about" class="page-scroll">About</a></li>
+        <li><a href="#libraries" class="page-scroll">Libraries</a></li>
+        <li><a href="#portfolio" class="page-scroll">Projects</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- Header -->
+<header id="header">
+  <iframe src="pages/Starfield.html" class="intro" style="border:none; height:500px;">
+  </iframe>
+</header>
+<!-- About Section -->
+<div id="about">
+  <div class="container">
+    <div class="section-title text-center center">
+      <h2>Introduction</h2>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-md-6 text-center"> <img src="img/p5js.svg" class="img-responsive" alt=""> </div>
+      <div class="col-xs-12 col-md-6">
+        <div class="about-text">
+          <h3>New library</h3>
+          <p>p5.js is a JavScript library that starts with the original goal of processing, to make coding accessible for artists, designers, educators and beginners. p5 has a full set of drawing functionality and you are not limited to your drawing canvas.</p>
+          <h3>What is Processing?</h3>
+          <p>Processing is a flexible software sketchbook and a language for learning how to code within the context of the visual arts. Since 2001, Processing has promoted software literacy within the visual arts and visual literacy within technology. There are tens of thousands of students, artists, designers, researchers, and hobbyists who use Processing for learning and prototyping.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Libraries Section -->
+<div id="libraries">
+  <div class="container">
+    <div class="col-md-10 col-md-offset-1 section-title text-center">
+      <h2>Libraries</h2>
+      <hr>
+      <p>With this libraries you have more options and more possibilities to play around with things when there is no limit.</p>
+    </div>
+    <div class="row">
+      <div id="clockPosition" class="col-xs-12 col-sm-4 service">
+        <h3>p5.dom</h3>
+        <p>p5.dom lets you interact with HTML5 objects as canvas, video, audio, webcam, input and text.</p>
+      </div>
+      <div id="sound" class="col-xs-12 col-sm-4 service"> <img src="img/note_trans.png" class="img-responsive" alt="p5.sound" style="z-index: 99;">
+        <h3>p5.sound</h3>
+        <p>p5.sound extends p5 with Web Audio functionality including audio input, playback, analysis and synthesis.</p>
+      </div>
+      <div class="col-xs-12 col-sm-4 service"><img src="img/AnimatedCircles-SM-small.png" class="img-style" alt="p5.accessibility">
+        <h3>p5.accessibility</h3>
+        <p>p5.accessibility makes the p5 canvas more accessible to people who are blind and visually impaired.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Portfolio Section -->
+<div id="portfolio">
+  <div class="container">
+    <div class="section-title text-center center">
+      <h2>Projects</h2>
+      <hr>
+      <p>These are some scientific achievments that we can present through p5 as well as make some interesting things on your own.</p>
+    </div>
+    <div class="categories">
+      <ul class="cat">
+        <li>
+          <ol class="type">
+            <li><a href="#" data-filter="*" class="active">All Projects</a></li>
+            <li><a href="#" data-filter=".matComplexity">Mathematic Complexity</a></li>
+            <li><a href="#" data-filter=".chaosTeory">Chaos Teory</a></li>
+            <li><a href="#" data-filter=".dataSorting">Data Sorting</a></li>
+            <li><a href="#" data-filter=".Animations">Animations</a></li>
+          </ol>
+        </li>
+      </ul>
+      <div class="clearfix"></div>
+    </div>
+    <div class="row">
+      <div class="portfolio-items">
+        <div class="col-sm-6 col-md-4 col-lg-4 matComplexity">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/MandelbrotSet-large.png" title="MandelBrot Set" data-lightbox-gallery="gallery1">
+              <div class="hover-text">
+                <h4>MandelBrot Set</h4>
+              </div>
+              <img src="img/portfolio/MandelbrotSet-small.png" class="img-responsive" alt="MandelBrot Set" style="size: cover;"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4 chaosTeory">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/TheLorenzAttractor-large.png" title="The Lorenz Attractor" data-lightbox-gallery="gallery1">
+              <div class="hover-text">
+                <h4>The Lorenz Attractor</h4>
+              </div>
+              <img src="img/portfolio/TheLorenzAttractor-small.png" class="img-responsive" alt="The Lorenz Attractor"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4 dataSorting">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/FractalTree-large.png" title="Fractal Tree" data-lightbox-gallery="gallery1">
+              <div class="hover-text">
+                <h4>Fractal Tree</h4>
+              </div>
+              <img src="img/portfolio/01-small.jpg" class="img-responsive" alt="Fractal Tree"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4 Animations">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/SpaceWarp-large.png" title="Space Warp" data-lightbox-gallery="gallery1">
+              <div class="hover-text">
+                <h4>Space Warp</h4>
+              </div>
+              <img src="img/portfolio/SpaceWarp-small.png" class="img-responsive" alt="Space Warp"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4 Animations">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/AmazingSpiderMan-cmp.jpg" title="Animated Circles" data-lightbox-gallery="gallery1">
+              <div class="hover-text">
+                <h4>Animated Circles</h4>
+              </div>
+              <img src="img/portfolio/AnimatedCircles-SM.png" class="img-responsive" alt="Animated Circles"> </a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Team Section -->
+<div id="team" class="text-center">
+  <div class="overlay">
+    <div class="container" style="margin-bottom: 35px;">
+      <div class="col-md-8 col-md-offset-2 section-title">
+        <h2 style="margin-top: 80px;">Link to Projects</h2>
+        <hr>
+      </div>
+      <div >
+        <ul >
+          <li>
+            <ol class="type">
+              <li><a href="pages/MandelbrotSet.html">Mandelbrot Set</a></li>
+              <li><a href="pages/TheLorenzAttractor.html">The Lorenz Attractor</a></li>
+              <li><a href="pages/FractalTree.html">Fractal Tree</a></li>
+              <li><a href="pages/SpaceWarp.html">Space Warp</a></li>
+              <li><a href="pages/AnimatedCircles.html">Animated Circles</a></li>
+            </ol>
+          </li>
+        </ul>
+        <div class="clearfix"></div>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Footer -->
+<div id="footer">
+  <div class="container text-center">
+    <div>
+      <p>&copy; 2018 NIKOLA SEMJANIV. All rights reserved.</p>
+    </div>
+  </div>
+</div>
+
+<!-- JavaScript
+    ================================================== -->
+<script type="text/javascript" src="js/jquery.1.11.1.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/SmoothScroll.js"></script>
+<script type="text/javascript" src="js/nivo-lightbox.js"></script>
+<script type="text/javascript" src="js/jquery.isotope.js"></script>
+<script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/p5js/addons/p5.js"></script>
+<script type="text/javascript" src="js/p5js/addons/p5.dom.js"></script>
+<script type="text/javascript" src="js/p5js/addons/p5.sound.js"></script>
+<script type="text/javascript" src="js/p5js/clock.js"></script>
+</body>
+</html>
